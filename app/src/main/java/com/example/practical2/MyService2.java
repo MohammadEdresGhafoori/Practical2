@@ -21,4 +21,5 @@ public class MyService2 extends Service {
     public void onDestroy() {
         super.onDestroy();
         Toast.makeText(this, "Service Stoped", Toast.LENGTH_SHORT).show();
-    }}
+    }
+}
